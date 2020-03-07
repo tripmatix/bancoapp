@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA134DA77A2B5BFB8DE55D8 /* Pods_BancoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D400A4F34E5D343AD8E0D /* Pods_BancoApp.framework */; };
 		3D3C2DFC23FC69E600BD279A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C2DFB23FC69E600BD279A /* AppDelegate.swift */; };
 		3D3C2DFE23FC69E600BD279A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C2DFD23FC69E600BD279A /* SceneDelegate.swift */; };
 		3D3C2E0023FC69E600BD279A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C2DFF23FC69E600BD279A /* ViewController.swift */; };
@@ -14,6 +15,16 @@
 		3D3C2E0523FC69EA00BD279A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3C2E0423FC69EA00BD279A /* Assets.xcassets */; };
 		3D3C2E0823FC69EA00BD279A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3C2E0623FC69EA00BD279A /* LaunchScreen.storyboard */; };
 		3D3C2E1323FC69EA00BD279A /* BancoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C2E1223FC69EA00BD279A /* BancoAppTests.swift */; };
+		3D5D53E423FE3B03007DF05C /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53E323FE3B03007DF05C /* ApiClient.swift */; };
+		3D5D53E623FE3BCE007DF05C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53E523FE3BCE007DF05C /* LoginViewController.swift */; };
+		3D5D53E823FE3C07007DF05C /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53E723FE3C07007DF05C /* LoginInteractor.swift */; };
+		3D5D53EA23FE3C29007DF05C /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53E923FE3C29007DF05C /* LoginRouter.swift */; };
+		3D5D53EC23FE3C51007DF05C /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53EB23FE3C51007DF05C /* LoginPresenter.swift */; };
+		3D5D53EE23FE3C76007DF05C /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53ED23FE3C76007DF05C /* LoginWorker.swift */; };
+		3D5D53F023FE3C87007DF05C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53EF23FE3C87007DF05C /* BaseView.swift */; };
+		3D5D53F223FE3CA3007DF05C /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53F123FE3CA3007DF05C /* LoginResponse.swift */; };
+		3D5D53F423FE3D4F007DF05C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D53F323FE3D4F007DF05C /* ErrorResponse.swift */; };
+		40C65178AA6CB31543438A33 /* Pods_BancoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6958028838BF72A5957D327A /* Pods_BancoAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +49,21 @@
 		3D3C2E0E23FC69EA00BD279A /* BancoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BancoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3C2E1223FC69EA00BD279A /* BancoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoAppTests.swift; sourceTree = "<group>"; };
 		3D3C2E1423FC69EA00BD279A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5D53E323FE3B03007DF05C /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		3D5D53E523FE3BCE007DF05C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D5D53E723FE3C07007DF05C /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		3D5D53E923FE3C29007DF05C /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		3D5D53EB23FE3C51007DF05C /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		3D5D53ED23FE3C76007DF05C /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		3D5D53EF23FE3C87007DF05C /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		3D5D53F123FE3CA3007DF05C /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		3D5D53F323FE3D4F007DF05C /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		4EEFB04FD7663D6955B9DA7F /* Pods-BancoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BancoApp.release.xcconfig"; path = "Target Support Files/Pods-BancoApp/Pods-BancoApp.release.xcconfig"; sourceTree = "<group>"; };
+		6958028838BF72A5957D327A /* Pods_BancoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BancoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D48AA3DB040E11EDB3525A5 /* Pods-BancoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BancoApp.debug.xcconfig"; path = "Target Support Files/Pods-BancoApp/Pods-BancoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8A2D8F236B64921E5E218B79 /* Pods-BancoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BancoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BancoAppTests/Pods-BancoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93C728BFACE4F33081AB73F5 /* Pods-BancoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BancoAppTests.release.xcconfig"; path = "Target Support Files/Pods-BancoAppTests/Pods-BancoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E5D400A4F34E5D343AD8E0D /* Pods_BancoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BancoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA134DA77A2B5BFB8DE55D8 /* Pods_BancoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +79,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C65178AA6CB31543438A33 /* Pods_BancoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1739E55A90010EC085CD704A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D400A4F34E5D343AD8E0D /* Pods_BancoApp.framework */,
+				6958028838BF72A5957D327A /* Pods_BancoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D1ECCBD23FC6D7C00F2B8B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D53F123FE3CA3007DF05C /* LoginResponse.swift */,
+				3D5D53F323FE3D4F007DF05C /* ErrorResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D1ECCBE23FC6D8700F2B8B3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D53EF23FE3C87007DF05C /* BaseView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3D1ECCBF23FC6D8D00F2B8B3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3D1ECCC023FC6D9700F2B8B3 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3D1ECCC023FC6D9700F2B8B3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D53E523FE3BCE007DF05C /* LoginViewController.swift */,
+				3D5D53E723FE3C07007DF05C /* LoginInteractor.swift */,
+				3D5D53E923FE3C29007DF05C /* LoginRouter.swift */,
+				3D5D53EB23FE3C51007DF05C /* LoginPresenter.swift */,
+				3D5D53ED23FE3C76007DF05C /* LoginWorker.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3D1ECCC123FC6D9C00F2B8B3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3D5D53E323FE3B03007DF05C /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		3D3C2DEF23FC69E600BD279A = {
 			isa = PBXGroup;
 			children = (
 				3D3C2DFA23FC69E600BD279A /* BancoApp */,
 				3D3C2E1123FC69EA00BD279A /* BancoAppTests */,
 				3D3C2DF923FC69E600BD279A /* Products */,
+				F0A48A80C448CA24C29EC318 /* Pods */,
+				1739E55A90010EC085CD704A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +163,10 @@
 		3D3C2DFA23FC69E600BD279A /* BancoApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D1ECCC123FC6D9C00F2B8B3 /* Network */,
+				3D1ECCBF23FC6D8D00F2B8B3 /* Scenes */,
+				3D1ECCBE23FC6D8700F2B8B3 /* Core */,
+				3D1ECCBD23FC6D7C00F2B8B3 /* Model */,
 				3D3C2DFB23FC69E600BD279A /* AppDelegate.swift */,
 				3D3C2DFD23FC69E600BD279A /* SceneDelegate.swift */,
 				3D3C2DFF23FC69E600BD279A /* ViewController.swift */,
@@ -99,6 +187,17 @@
 			path = BancoAppTests;
 			sourceTree = "<group>";
 		};
+		F0A48A80C448CA24C29EC318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D48AA3DB040E11EDB3525A5 /* Pods-BancoApp.debug.xcconfig */,
+				4EEFB04FD7663D6955B9DA7F /* Pods-BancoApp.release.xcconfig */,
+				8A2D8F236B64921E5E218B79 /* Pods-BancoAppTests.debug.xcconfig */,
+				93C728BFACE4F33081AB73F5 /* Pods-BancoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D3C2E1723FC69EA00BD279A /* Build configuration list for PBXNativeTarget "BancoApp" */;
 			buildPhases = (
+				6FD89133FE8FCB96370E77AF /* [CP] Check Pods Manifest.lock */,
 				3D3C2DF423FC69E600BD279A /* Sources */,
 				3D3C2DF523FC69E600BD279A /* Frameworks */,
 				3D3C2DF623FC69E600BD279A /* Resources */,
+				B3E8F9161E2323CC0F1BCE80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D3C2E1A23FC69EA00BD279A /* Build configuration list for PBXNativeTarget "BancoAppTests" */;
 			buildPhases = (
+				B946222C44EF91EF122CBAEE /* [CP] Check Pods Manifest.lock */,
 				3D3C2E0A23FC69EA00BD279A /* Sources */,
 				3D3C2E0B23FC69EA00BD279A /* Frameworks */,
 				3D3C2E0C23FC69EA00BD279A /* Resources */,
@@ -195,14 +297,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FD89133FE8FCB96370E77AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BancoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E8F9161E2323CC0F1BCE80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BancoApp/Pods-BancoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BancoApp/Pods-BancoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BancoApp/Pods-BancoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B946222C44EF91EF122CBAEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BancoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D3C2DF423FC69E600BD279A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5D53EC23FE3C51007DF05C /* LoginPresenter.swift in Sources */,
 				3D3C2E0023FC69E600BD279A /* ViewController.swift in Sources */,
 				3D3C2DFC23FC69E600BD279A /* AppDelegate.swift in Sources */,
+				3D5D53F423FE3D4F007DF05C /* ErrorResponse.swift in Sources */,
+				3D5D53E823FE3C07007DF05C /* LoginInteractor.swift in Sources */,
 				3D3C2DFE23FC69E600BD279A /* SceneDelegate.swift in Sources */,
+				3D5D53EE23FE3C76007DF05C /* LoginWorker.swift in Sources */,
+				3D5D53E623FE3BCE007DF05C /* LoginViewController.swift in Sources */,
+				3D5D53F023FE3C87007DF05C /* BaseView.swift in Sources */,
+				3D5D53EA23FE3C29007DF05C /* LoginRouter.swift in Sources */,
+				3D5D53F223FE3CA3007DF05C /* LoginResponse.swift in Sources */,
+				3D5D53E423FE3B03007DF05C /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +535,7 @@
 		};
 		3D3C2E1823FC69EA00BD279A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D48AA3DB040E11EDB3525A5 /* Pods-BancoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,12 +548,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = teste.BancoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3D3C2E1923FC69EA00BD279A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEFB04FD7663D6955B9DA7F /* Pods-BancoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,12 +567,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = teste.BancoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		3D3C2E1B23FC69EA00BD279A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2D8F236B64921E5E218B79 /* Pods-BancoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +596,7 @@
 		};
 		3D3C2E1C23FC69EA00BD279A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C728BFACE4F33081AB73F5 /* Pods-BancoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
